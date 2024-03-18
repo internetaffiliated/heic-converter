@@ -1,3 +1,7 @@
+Certainly! Below is a template for a README file for your HEIC to JPEG/PNG converter app deployed with Streamlit. This README provides a concise yet comprehensive guide for users and contributors. You can adjust it as needed to fit your project's specifics.
+
+---
+
 # HEIC to JPEG/PNG Converter
 
 This HEIC to JPEG/PNG Converter is a simple web application built with Streamlit, designed to help users easily convert their HEIC image files to either JPEG or PNG format. HEIC files, while efficient in terms of storage, often present compatibility issues with various software and devices. This tool aims to solve that problem by providing a straightforward conversion process that can be accessed through any web browser.
@@ -10,7 +14,7 @@ This HEIC to JPEG/PNG Converter is a simple web application built with Streamlit
 
 ## How to Use
 
-1. **Access the App**: Open the web application link in your browser. *(https://heic-converter.streamlit.app )*
+1. **Access the App**: Open the web application link in your browser. * https://heic-converter.streamlit.app *
 2. **Upload HEIC Files**: Click on the "Choose HEIC files" button to select and upload the HEIC files you wish to convert. You can select multiple files for batch conversion.
 3. **Select Output Format**: Choose your desired output format (JPEG or PNG) using the radio buttons.
 4. **Convert and Download**: Click on the "Convert Files" button. Once the conversion is complete, download links for each converted image will appear. Click on each link to download the converted files.
@@ -59,7 +63,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/askgrayson) - email@example.com
+Your Name - [@askgrayson](https://twitter.com/askgrayson) - email@example.com
 
 Project Link: [https://github.com/internetaffiliated/heic-converter-app](https://github.com/yourusername/heic-converter-app)
 
