@@ -41,7 +41,7 @@ If you prefer to run the converter locally on your machine, follow these steps:
 
 ## Deployment
 
-This app is deployed using Streamlit Sharing/Heroku/another platform. *(Specify the platform and any specific deployment steps or links to deployment guides.)*
+This app is deployed using Streamlit Sharing
 
 ## Contributing
 
@@ -55,7 +55,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. 
 
 ## Contact
 
@@ -64,5 +64,3 @@ Grayson B - [@askgrayson](https://twitter.com/askgrayson)
 Project Link: [https://github.com/internetaffiliated/heic-converter](https://github.com/internetaffiliated/heic-converter)
 
 ---
-
-Make sure to replace placeholders (like URLs, usernames, and contact information) with your actual data. This README should provide a solid foundation for your project, making it accessible and understandable for both users and potential contributors.
