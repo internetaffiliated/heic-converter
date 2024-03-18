@@ -61,7 +61,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@askgrayson](https://twitter.com/askgrayson) - email@example.com
 
-Project Link: [https://github.com/internetaffiliated/heic-converter-app](https://github.com/yourusername/heic-converter-app)
+Project Link: [https://github.com/internetaffiliated/heic-converter-app](https://github.com/yourusername/heic-converter)
 
 ---
 
