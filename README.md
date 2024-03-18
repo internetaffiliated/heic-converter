@@ -1,7 +1,3 @@
-Certainly! Below is a template for a README file for your HEIC to JPEG/PNG converter app deployed with Streamlit. This README provides a concise yet comprehensive guide for users and contributors. You can adjust it as needed to fit your project's specifics.
-
----
-
 # HEIC to JPEG/PNG Converter
 
 This HEIC to JPEG/PNG Converter is a simple web application built with Streamlit, designed to help users easily convert their HEIC image files to either JPEG or PNG format. HEIC files, while efficient in terms of storage, often present compatibility issues with various software and devices. This tool aims to solve that problem by providing a straightforward conversion process that can be accessed through any web browser.
