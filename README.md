@@ -59,7 +59,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@askgrayson](https://twitter.com/askgrayson) - email@example.com
+Grayson B - [@askgrayson](https://twitter.com/askgrayson)
 
 Project Link: [https://github.com/internetaffiliated/heic-converter](https://github.com/internetaffiliated/heic-converter)
 
