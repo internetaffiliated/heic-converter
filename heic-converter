@@ -1,0 +1,33 @@
+import os
+import subprocess
+import streamlit as st
+from tempfile import mkdtemp
+from shutil import rmtree
+
+def convert_heic_to_jpeg(input_path, output_path, output_format='JPEG'):
+    subprocess.run(['magick', 'convert', input_path, f"{output_path}.{output_format.lower()}"])
+
+def save_uploaded_file(directory, uploaded_file):
+    path = os.path.join(directory, uploaded_file.name)
+    with open(path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    return path
+
+st.title('HEIC to JPEG/PNG Converter')
+
+uploaded_files = st.file_uploader("Choose HEIC files", accept_multiple_files=True, type=['heic'])
+output_format = st.radio("Output Format", ('JPEG', 'PNG'))
+
+if st.button('Convert Files'):
+    if uploaded_files and output_format:
+        output_dir = mkdtemp()
+        for uploaded_file in uploaded_files:
+            input_path = save_uploaded_file(output_dir, uploaded_file)
+            output_path = os.path.splitext(input_path)[0]
+            convert_heic_to_jpeg(input_path, output_path, output_format)
+            os.remove(input_path) # Remove the original file after conversion
+            with open(f"{output_path}.{output_format.lower()}", "rb") as f:
+                st.download_button(f"Download {os.path.basename(output_path)}.{output_format.lower()}", f, file_name=f"{os.path.basename(output_path)}.{output_format.lower()}")
+        rmtree(output_dir) # Clean up the temporary directory
+    else:
+        st.error('Please upload at least one HEIC file and select an output format.')
